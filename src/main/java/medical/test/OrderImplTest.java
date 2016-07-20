@@ -44,7 +44,6 @@ public class OrderImplTest {
         Service s4 = new XRay(); //150
         list.add(s4);
 
-
         double price = order.getTotalPrice(80, false, list); // total original = 345.5
 
         assertEquals(price, 34.55, DELTA); //after discount should be 34.55
@@ -53,6 +52,7 @@ public class OrderImplTest {
 
     /*
     * given insured citizen aged between 65 and 70
+    * and take blood test
     * **/
 
     @Test
@@ -62,7 +62,6 @@ public class OrderImplTest {
         list.add(s1);
         Service s2 = new BloodTest(); // 78
         list.add(s2);
-
 
         double price = order.getTotalPrice(70, true, list); // total original = 138
 

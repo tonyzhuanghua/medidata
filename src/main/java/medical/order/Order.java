@@ -9,5 +9,5 @@ import java.util.List;
  */
 public interface Order {
 
-     double getTotalPrice(int age,boolean insured,List<Service> list);
+    double getTotalPrice(int age, boolean insured, List<Service> list);
 }

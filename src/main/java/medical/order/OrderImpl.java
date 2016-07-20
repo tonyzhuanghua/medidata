@@ -23,6 +23,8 @@ public class OrderImpl implements Order {
         } else if (age > 70) {
             discountRate = 0.1f;
         }
+
+
         for (Service s : list) {
             double price = s.getPrice();
             if (insured && s instanceof BloodTest) {
