@@ -1,5 +1,5 @@
-# poulton_court
-Strategy Pattern
+# Medidata
+Use Strategy Pattern and
 Factory Pattern
 
 Candidate Test
